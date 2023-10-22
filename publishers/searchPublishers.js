@@ -1,9 +1,9 @@
 async function searchPublishers(connection, publisherName) {
     try {
       const selectSQL = `
-        SELECT pub_id, pub_name, address, email
+        SELECT publisher_id, publisher_name, address, email
         FROM publishers
-        WHERE UPPER(pub_name) LIKE UPPER(:name)
+        WHERE UPPER(publisher_name) LIKE UPPER(:name)
       `;
   
       const bindParams = {
