@@ -12,7 +12,7 @@ async function deletePublishers(connection, pubId) {
       };
     
       const result = await connection.execute(deleteSQL, bindParams);
-      await displayPublishers(connection);
+      await connection.commit();
       console.log(`Publisher with ID ${pubId} deleted successfully.`);
     } catch (error) {
       console.error('Error deleting publisher:', error);
