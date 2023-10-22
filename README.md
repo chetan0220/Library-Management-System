@@ -1,9 +1,9 @@
 # DBMS Mini Project : Library Management System.
 
-## ER Diagram
+ER Diagram<br>
 <br><img width="557" alt="libraryERD" src="https://github.com/chetan0220/DBMS-Mini-Project/assets/97821311/9bc856bb-9505-4a1f-8f1e-86777bba2f6e">
 
-## Options Available
+Options Available
 - Books  
 	- Add a new Book
 	- Display all Books
