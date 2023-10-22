@@ -18,9 +18,9 @@ async function searchPublishers(connection, publisherName) {
       }
   
       console.log(`Publishers with name containing "${publisherName}"`);
-      console.log('-----------------------------------------');
+      console.log('--------------------------------------------------------------------------------------------------');
       console.log('Publisher ID\tPublisher Name\tAddress\t\tEmail');
-      console.log('-----------------------------------------');
+      console.log('--------------------------------------------------------------------------------------------------');
   
       for (const row of result.rows) {
         const [pub_id, pub_name, address, email] = row;
