@@ -95,3 +95,7 @@ Select one of the available options:
 - Publisher: Manage publisher records.
 - Author: Manage author records.
 - Exit: Quit the application.
+
+---
+If you have any query, feedback or suggestion feel free to drop a mail at chetan.mahale0220@gmail.com :) 
+
