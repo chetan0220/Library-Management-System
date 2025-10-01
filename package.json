@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "inquirer": "^9.2.11",
+    "inquirer": "^9.3.8",
     "oracledb": "^6.1.0",
     "prompt-sync": "^4.2.0"
   },
